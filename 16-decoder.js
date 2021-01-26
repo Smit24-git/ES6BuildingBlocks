@@ -13,8 +13,8 @@ let decryptCode=(code)=>{
         if(decodingAlgorithm[value-1])
             decodedMessage+=decodingAlgorithm[value-1];
         else
-            return 'Code is Altered by someone!'
+            return 'Code is Altered by someone!';
     }
-    return decodedMessage
+    return decodedMessage;
 }
 console.log(decryptCode(code));
